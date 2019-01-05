@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backGround"
+    tools:context=".ChestWorkout.Butterfly">
+
+
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:id="@+id/all_chest_workout_imageId"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+
+                <TextView
+                    android:textIsSelectable="true"
+                    android:textStyle="normal"
+                    android:padding="5dp"
+                    android:textColor="@color/textColor"
+                    android:id="@+id/all_chest_workoutText"
+                    android:layout_below="@id/all_chest_workout_imageId"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+
+
+        </ScrollView>
+
+
+</RelativeLayout>

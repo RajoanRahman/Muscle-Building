@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/chest_image"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_margin="10dp"
+
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/workoutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/chest_image"
+        android:layout_alignRight="@+id/chest_image"
+        android:layout_alignTop="@+id/chest_image"
+        android:layout_alignBottom="@+id/chest_image"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginRight="-51dp"
+        android:fontFamily="@font/font_family"
+
+        android:textColor="#c9c63f"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="4dp"
+        >
+
+        <ImageView
+
+
+            android:scaleType="fitXY"
+            android:id="@+id/splitWorkout_Image_Id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="Two Days Workout/Week "
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textColor="#c9c63f"
+            android:textStyle="bold"
+            android:id="@+id/splitWorkout_textId"
+            android:layout_gravity="center"
+            android:fontFamily="@font/panfletastencil_extrabold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/workout"
+        android:title="Workout"
+        android:icon="@drawable/gym"/>
+    <item
+        android:id="@+id/workout_plan"
+        android:title="Workout Plan"
+        android:icon="@drawable/gym_plan"/>
+    <item
+        android:id="@+id/split_workout"
+        android:title="Split Workout"
+        android:icon="@drawable/gym_two"/>
+
+</menu>
